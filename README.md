@@ -21,7 +21,7 @@ Quickstart :
    Login with jdbc url, username and password
     same as `application.properties` configuration
     ```
-    • JDBC URL = jdbc:h2:mem:h2db
+    • JDBC URL = jdbc:h2:mem:h2
     • User Name = h2
     • Password = password
     ```
