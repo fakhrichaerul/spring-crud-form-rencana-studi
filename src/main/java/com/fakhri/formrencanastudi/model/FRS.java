@@ -3,6 +3,7 @@ package com.fakhri.formrencanastudi.model;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.time.DayOfWeek;
 
 @Entity
 @Table(name = "form_rencana_studi")
@@ -15,7 +16,7 @@ public class FRS {
     private Integer id;
 
     @Column(name = "jadwal")
-    private String jadwal;
+    private DayOfWeek jadwal;
 
     @ManyToOne
     @JoinColumn(name = "mahasiswa")
