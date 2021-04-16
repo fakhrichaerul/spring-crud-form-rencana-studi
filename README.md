@@ -1,4 +1,5 @@
 # Aplikasi Form Rencana Studi
+Features :
 
     • CRUD mahasiswa
     • CRUD jurusan
@@ -20,9 +21,9 @@ Quickstart :
    Login with jdbc url, username and password
     same as `application.properties` configuration
     ```
-    JDBC URL = jdbc:h2:mem:h2db
-    User Name = h2
-    Password = password
+    • JDBC URL = jdbc:h2:mem:h2db
+    • User Name = h2
+    • Password = password
     ```
 
 3. Restful API docs can be accessed from url :
